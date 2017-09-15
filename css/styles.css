@@ -5,3 +5,18 @@
 #lang, #results, #output {
   text-align: center;
 }
+.images {
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: red;
+}
+
+.radio {
+  margin-left: 3em;
+}
+
+.headertext {
+  color: white;
+}
