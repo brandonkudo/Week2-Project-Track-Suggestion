@@ -58,7 +58,7 @@ $(document).ready(function() {
       var scoreFive = parseInt($("input:radio[name=seinfeld]:checked").val());
       $("form#seinfeld").slideToggle();
       $("form#results").slideToggle();
-      $("#quiz").slideToggle();
+      $("#results").slideToggle();
       $("#lang").slideToggle();
       event.preventDefault();
       var finalScore = scoreOne + scoreTwo + scoreThree + scoreFour + scoreFive;

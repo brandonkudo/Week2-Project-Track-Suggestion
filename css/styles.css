@@ -1,3 +1,7 @@
-#show, #color, #seinfeld, #quiz, #css, #html, #php, #ruby, #amuse {
+#show, #color, #seinfeld, #results, #css, #html, #php, #ruby, #amuse {
   display: none;
+}
+
+#lang, #results, #output {
+  text-align: center;
 }
