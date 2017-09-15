@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Poppins');
+
 #show, #color, #seinfeld, #results, #css, #html, #php, #ruby, #amuse {
   display: none;
 }
@@ -10,13 +12,20 @@
 }
 
 .jumbotron {
-  background-color: red;
+  background-color: #d8bce0;
+  margin-top: 3em;
 }
 
 .radio {
   margin-left: 3em;
 }
 
-.headertext {
+.headertext, .panel-heading {
   color: white;
+  font-family: poppins;
+  text-align: justify;
+}
+
+#button1, #button2, #button3, #button4, #button5 {
+  margin-left: 3em;
 }
